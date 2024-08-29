@@ -1,0 +1,90 @@
+@media (max-width: 600px) {
+  .App {
+      padding: 10px;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  button {
+      width: 100%;
+      margin: 0;
+  }
+
+  div {
+      margin: 10px 0;
+      padding: 10px;
+  }
+
+  video {
+      width: 100%;
+      height: auto;
+  }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+
+input[type="text"],
+input[type="password"] {
+  margin: 10px;
+  padding: 10px;
+  width: 300px;  /* Consistent width for both input fields */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;  /* Ensuring padding is included in width calculation */
+}
+
+button {
+  width: 320px;  /* Consistent with input fields */
+  max-width: 100%;  /* Ensures responsiveness */
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transition: background-color 0.3s ease;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+div {
+  margin-bottom: 20px;
+  padding: 15px;  /* Added padding for a cleaner look */
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+  color: #999;
+}
+
+.chat-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}

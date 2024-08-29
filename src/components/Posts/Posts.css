@@ -1,0 +1,95 @@
+.posts-container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 37%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  max-height: auto;
+  max-height: auto;
+  object-fit: cover;
+}
+
+.post-content {
+  padding: 15px;
+  box-shadow: none;
+  word-wrap: break-word;
+  font-family: inherit;
+  text-align: left;
+  line-height: 1.7;
+}
+
+.post-content p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: none;
+  height: 5vh;
+  background-color: #fff;
+}
+
+.action-item {
+  display: flex;
+  border: none;
+  box-shadow: none;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 8px;
+  color: #333;
+}
+
+.active .icon {
+  color: #007bff; /* Active color for liked/disliked buttons */
+}
+
+.action-item:hover .icon {
+  color: #007bff; /* Hover effect for icons */
+}
+
+.action-item span {
+  font-size: 14px;
+  color: #666;
+}
+.profile-pic{
+  align-self: flex-start;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.profile{
+  display: flex;
+  direction: row;
+  justify-self: center;
+  align-items: center;
+  height:4vh;
+  margin-top: 0px;
+  box-shadow: none;
+  font-family: inherit;
+}
