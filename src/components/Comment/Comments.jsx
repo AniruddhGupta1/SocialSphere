@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Comments.css'; // Styles specific to the Comments component
+import './Comments.css';
 import { MdOutlineSend } from 'react-icons/md';
 import  { addComment } from '../../redux/slices/postsSlice';
 import { useDispatch } from 'react-redux';
@@ -49,7 +49,6 @@ const Comments = ({ post, onClose }) => {
         <MdOutlineSend />
         </button>
       </div>
-      {/* Remove the close button here, handled in Modal */}
     </div>
   );
 };

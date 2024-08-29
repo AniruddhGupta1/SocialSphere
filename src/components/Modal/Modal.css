@@ -1,11 +1,11 @@
 .modal-overlay {
   position: fixed;
   inset: 0; /* This sets top, right, bottom, and left to 0 */
-  background-color: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.5); 
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Align items to the top of the screen *//* Enable scrolling for the entire overlay */
-  z-index: 1000; /* Ensures the modal is above other content */
+  align-items: flex-start; 
+  z-index: 1000; 
   padding-top: 20px
   }
   

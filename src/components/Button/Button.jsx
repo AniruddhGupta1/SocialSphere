@@ -1,6 +1,6 @@
 // src/components/Button.js
 import React from 'react';
-import './Button.css'; // Importing the CSS file for button styling
+import './Button.css'; 
 
 const Button = ({ label, onClick, type = 'button', style, disabled = false }) => {
     return (

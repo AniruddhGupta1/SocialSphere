@@ -38,8 +38,8 @@
 .sidebar {
     position: fixed;
     top: 0;
-    right: -320px; /* Move the sidebar fully off-screen, adjust if needed */
-    width: 300px; /* Set this to the exact width of your sidebar content */
+    right: -320px;
+    width: 300px; 
     height: 100%;
     background-color: #fff;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);

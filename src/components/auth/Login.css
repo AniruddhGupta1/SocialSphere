@@ -1,11 +1,11 @@
-/* Add a gradient background and animation to the login container */
+
 .loginStyle {
     background: linear-gradient(135deg, #f0f4f8, #e0e5e9);
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 400px;
-    margin: 50px auto; /* Added top margin for spacing */
+    margin: 50px auto; 
     text-align: center;
     position: relative;
     overflow: hidden;

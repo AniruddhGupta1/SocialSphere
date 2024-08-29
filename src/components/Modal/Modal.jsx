@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaTimes } from 'react-icons/fa'; // Import the close icon from Font Awesome
-import './Modal.css'; // Import CSS styles specific to the Modal component
+import { FaTimes } from 'react-icons/fa'; 
+import './Modal.css'; 
 
 const Modal = ({ isOpen, onClose, children }) => {
   if (!isOpen) return null;

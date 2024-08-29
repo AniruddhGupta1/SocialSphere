@@ -1,8 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  users: ['User1', 'User2', 'User3'], // List of users
-  currentChat: 'User1', // Initially selected user
+  users: ['User1', 'User2', 'User3'], 
+  currentChat: 'User1', 
   chats: {
     User1: [
       { id: 1, user: 'User1', message: 'Hi there! How can I help you today?' },

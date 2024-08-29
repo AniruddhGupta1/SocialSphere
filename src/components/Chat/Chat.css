@@ -41,10 +41,10 @@
   .other-message {
     background-color: #f1f1f1;
     color: black;
-    margin-right: auto; /* Aligns message to the left */
+    margin-right: auto; 
   }
   
-  /* Input section styling */
+
   .message-input {
     display: flex;
     align-items: center;
@@ -82,17 +82,17 @@
   .search-input {
     width: 100%; /* Make sure the input takes up the full width of its container */
     padding: 10px;
-    margin-bottom: 15px; /* Adjust bottom margin for spacing */
+    margin-bottom: 15px; 
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 16px;
     background-color: #f9f9f9;
     color: #333;
-    box-sizing: border-box; /* Ensure padding is included in width calculation */
+    box-sizing: border-box; 
   }
   
   .user-item {
-    padding: 10px; /* Adjust padding to bring items closer to the start of the container */
+    padding: 10px; 
     cursor: pointer;
     background-color: #fff;
     display: flex;
@@ -110,7 +110,7 @@
   }
   
   .profile-icon {
-    font-size: 28px; /* Adjust the size as needed */
+    font-size: 28px; 
     color: #cacaca;
     background-color: #d4e0eb5d; 
     border-radius: 50%;
@@ -129,26 +129,26 @@
   .chat-action {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; /* This will push items to the edges */
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 5px;
     margin-top: 0;
     height: 4%;
-    width: 100%; /* Ensure the chat action takes full width */
+    width: 100%; 
   }
   
   .chat-icons {
     display: flex;
     box-shadow: none;
-    gap: 10px; /* Space between icons */
-    margin-left: auto; /* Push icons to the far right */
+    gap: 10px; 
+    margin-left: auto; 
   }
   
   .action-icon {
     font-size: 19px;
     margin-right: 18px;
-    color: #007bff; /* Color the icons blue */
-    cursor: pointer; /* Show pointer cursor on hover */
+    color: #007bff; 
+    cursor: pointer; 
   }
   .chat-message {
     margin-bottom: 10px;
@@ -160,7 +160,7 @@
     word-wrap: break-word;
   }
   
-  /* Right-align messages for "You" */
+
   .chat-message.align-right {
     background-color: #007bff;
     color: white;
@@ -170,18 +170,17 @@
     height: fit-content;
     max-width: 70%;
     padding-right: 15px;
-    margin-left: auto; /* Aligns the message to the right */
-    text-align: start; /* Text alignment inside the message box */
+    margin-left: auto; 
+    text-align: start; 
   }
   
-  /* Left-align messages for other users */
   .chat-message.align-left {
     background-color: #f1f1f1;
     color: black;
     width: fit-content;
     max-width: 50%;
-    margin-right: auto; /* Aligns the message to the left */
-    text-align: left; /* Text alignment inside the message box */
+    margin-right: auto; 
+    text-align: left; 
   }
   
   /* No changes needed here, just keeping for reference */
