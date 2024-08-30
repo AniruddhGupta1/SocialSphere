@@ -3,4 +3,5 @@
 //if react is downloaded then just do 
 * npm install 
 // then do the 
-* npm run start 
+* npm run start
+* use password username : user , password : password to login
